@@ -11,7 +11,7 @@
 
 4 - Se déplacer dans le dossier où la source a été extraite
 
-        EX : cd cd prometheus-*
+        EX :  cd prometheus-*
 
 5 - Afficher l'aide prometheus avec la commande ./prometheus --help
 
@@ -21,4 +21,22 @@
 Le node_exporterest conçu pour surveiller le système hôte. Il n'est pas recommandé de le déployer 
 en tant que conteneur Docker car il nécessite un accès au système hôte.
 Le node_exporterécoute sur le port HTTP 9100 par défaut
+
+
+1 - Aller récupérer la source sur le site https://prometheus.io/download/
+	Ici la version utilisée est 1.1.2
+	
+        Ex : https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+
+2 - Télécharger la source avec la commande wget + source
+        Ex : https://github.com/prometheus/node_exporter/releases/download/v1.1.2/node_exporter-1.1.2.linux-amd64.tar.gz
+
+3 - Décompresser la source à l'aide de la commande : tar
+        EX : tar xvfz node_exporter-*.*-amd64.tar.gz
+
+4 - Se déplacer dans le dossier où la source a été extraite
+
+        EX : cd node_exporter-*.*-amd64
+
+5 - Afficher l'aide prometheus avec la commande ./node_exporter --help
 

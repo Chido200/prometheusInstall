@@ -1,3 +1,4 @@
+##########Prometheus
 Pour faire le test, j'ai décidé de mettre le fichier de configuration de prometheus
 dans le dossier /etc/prometheus
 Pour cela j'ai crée un dossier prometheus dans /etc puis un fichier prometheus.yml dans le dossier prometheus
@@ -8,3 +9,12 @@ Après j'ai executé la commande ./prometheus --config.file=/etc/prometheus/prom
 Illustration :
 	sudo mkdir /etc/prometheus
 	sudo touch /etc/prometheus/prometheus.yml 
+
+Lancer l'url : localhost:9090
+
+--Pour plus d'infos consulter le site de prometheus
+
+
+###########Node exporter
+pour lancer node exporter il suffit just de taper cette commande: ./node_exporter   dans le dossier où ce dernier a été extrait
+node exporter écouter sur le port 9100. Rendez vous sur l'url localhost:9100. Si tout marche bien vous devez voir les métrics de votre hôte  

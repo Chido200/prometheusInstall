@@ -1,0 +1,4 @@
+./prometheus --config.file=prometheus.yml
+
+
+--config.file pointe vers le fichier de configuration de prometheus.yml

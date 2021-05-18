@@ -1,0 +1,10 @@
+Pour faire le test, j'ai décidé de mettre le fichier de configuration de prometheus
+dans le dossier /etc/prometheus
+Pour cela j'ai crée un dossier prometheus dans /etc puis un fichier prometheus.yml dans le dossier prometheus
+Enfin j'ai collé le fichier de configuration dans prometheus.yml
+
+Après j'ai executé la commande ./prometheus --config.file=/etc/prometheus/prometheus.yml
+
+Illustration :
+	sudo mkdir /etc/prometheus
+	sudo touch /etc/prometheus/prometheus.yml 

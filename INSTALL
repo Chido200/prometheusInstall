@@ -15,3 +15,10 @@
 
 5 - Afficher l'aide prometheus avec la commande ./prometheus --help
 
+
+
+*********INSTALLATION DE NODE EXPORTEUR POUR SURVEILLER LES SYSTEMES HOTES*************************
+Le node_exporterest conçu pour surveiller le système hôte. Il n'est pas recommandé de le déployer 
+en tant que conteneur Docker car il nécessite un accès au système hôte.
+Le node_exporterécoute sur le port HTTP 9100 par défaut
+

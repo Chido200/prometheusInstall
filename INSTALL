@@ -1,0 +1,17 @@
+***********IL S'AGIT ICI DE L'ETAPE DE TELECHARGEMENT DE PROMETHEUS***********************************
+
+1 - Aller récupérer la source sur le site https://prometheus.io/download/
+        Ex : https://github.com/prometheus/prometheus/releases/download/v2.27.0/prometheus-2.27.0.darwin-amd64.tar.gz
+
+2 - Télécharger la source avec la commande wget + source
+        Ex : wget https://github.com/prometheus/prometheus/releases/download/v2.27.0/prometheus-2.27.0.linux-amd64.tar.gz
+
+3 - Décompresser la source à l'aide de la commande : tar
+        EX : tar xvfz prometheus-*.tar.gz
+
+4 - Se déplacer dans le dossier où la source a été extraite
+
+        EX : cd cd prometheus-*
+
+5 - Afficher l'aide prometheus avec la commande ./prometheus --help
+
